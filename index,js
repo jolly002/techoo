@@ -1,0 +1,14 @@
+document.querySelector(".bars").addEventListener("click",()=>{
+
+    if(document.getElementById("exus").style.display=="none"){
+        document.getElementById("exus").style.display="block"
+        document.getElementById("exus").style.display="start"
+    
+    }
+    else{
+        document.getElementById("exus").style.display="none"
+        document.getElementById("exus").style.display="end"
+        
+    }
+})
+

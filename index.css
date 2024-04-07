@@ -1,0 +1,1128 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,30;0;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#wood{
+    width: 100%;
+    height: 3080px;
+    background-color: rgb(13, 41, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#wood #big{
+    width: 94%;
+    height: 97%;
+    background-color: white;
+    display: flex;
+    
+    flex-direction: column;
+
+}
+#wood #big .head{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#wood #big .head select{
+    width: 60px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid grey;
+}
+#wood #big .head .social{
+    width: 122px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+#wood #big .head img{
+        width: 180px;
+        height: 180px;
+        
+}
+#wood #big .line{
+    display: flex;
+    justify-content: space-between;
+}
+#wood #big .line1{
+    width: 40%;
+    border: 1px solid grey;
+}
+#wood #big .line2{
+    width: 45%;
+    border: 1px solid grey;
+}
+#wood #big header .search{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#wood #big header .search .bars{
+    width: 50px;
+    height: 30px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    display: none;
+   
+}
+#wood #big header .search .bars .bar1{
+    width: 80%;
+    height: 3px;
+    
+    background-color: rgb(17, 17, 61);
+}
+#wood #big header .search .bars .bar2{
+    width: 80%;
+    height: 3px;
+    
+    background-color: rgb(17, 17, 61);
+}
+#wood #big header .search .bars .bar3{
+    width: 80%;
+    height: 3px;
+    
+    background-color: rgb(17, 17, 61);
+}
+
+#wood #big header .search .exclu ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    color: rgb(13, 41, 13);
+    
+}
+.exclu ul li:hover{
+    color: rgb(151, 247, 6);
+}
+
+#wood #big header .search .tag{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+#wood #big header .search input{
+    outline: none;
+    border: 1px solid rgb(13, 41, 13);
+}
+#wood #big header .line3{
+    width: 100%;
+    border: 1px solid grey;
+}
+#wood #big header #exus{
+    width: 100%;
+    height: 150px;
+    background-color: green;
+    
+    animation-fill-mode: forwards;
+    display: none;
+    
+    
+}
+#wood #big header #exclud #exus ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:13px;
+}
+#exclud #exus ul li:hover{
+    color: rgb(151, 247, 6);
+}
+
+
+
+
+
+
+
+#create{
+    width: 100%;
+    height: 350px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#create .creative p{
+    font-size: 30px;
+    font-weight: bolder;
+    color:rgb(13, 41, 13) ;
+    font-family: "Merriweather", serif;
+}
+#create .creative button{
+    width: 140px;
+    height: 30px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#wood #big .asign{
+    color:rgb(13, 41, 13) ;
+    margin-left: 70px;
+    
+}
+#create .cimg{
+    width: 300px;
+    height: 300px;
+    background-color:rgb(13, 41, 13) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#create .cimg .new{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#create .cimg img{
+    width:200px;
+    height: 200px;
+    box-shadow: 0px 0px 10px;
+    /* position: relative;
+    bottom: 110px; */
+  
+}
+#wood #big #feat{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+#wood #big #feat #featured{
+    width: 90%;
+    height: 100%;
+    background-color:rgb(13, 41, 13) ;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+#wood #big #feat #featured .ogil{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#wood #big #feat #featured .ogil .ogy{
+    width: 400px;
+    height: 350px;
+    color: white;
+    font-family: fantasy;
+
+}
+#wood #big #feat #featured .ogil .ogy u{
+    cursor: pointer;
+    font-family: "Josefin Sans", sans-serif;
+}
+#wood #big #feat #featured .ogil .imgg{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px ;
+    background-color: rgb(14, 53, 14);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#wood #big #feat #featured .ogil button{
+    background-color: orange;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 110px;
+    left: 135px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#wood #big #feat #featured .ogil .imgg img{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 10px;
+}
+#wood #big #feat #featured .ogil  .one{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    bottom: 125px;
+    right: 85px;
+}
+#wood #big #feat #featured .ara{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#wood #big #feat #featured .ara .aris{
+    width: 300px;
+    height: 300px;
+    background-color:rgb(14, 53, 14) ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#wood #big #feat #featured .ara .aris img{
+    width: 300px;
+    height: 300px;
+  
+}
+#wood #big #feat #featured .ara  .one{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    bottom: 135px;
+    left: 100px;
+}
+#wood #big #feat #featured .ara button{
+    background-color: orange;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 80px;
+    right: 120px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#wood #big #feat #featured .ara .dining{
+    width: 400px;
+    height: 200px;
+    color: white;
+}
+
+
+#wood #big .prod{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+}
+
+ .flex{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#wood #big .flex .scrol{
+   width:90%;
+   height: 100%;
+   display: flex;
+   overflow-x: scroll;
+   gap: 10px;
+   
+}
+ 
+#wood #big .flex .scrol .flex1 .first{
+    width: 300px;
+    height: 280px;
+    border: 1px solid grey;
+    background-image: url(/daniil-silantev-1P6AnKDw6S8-unsplash.jpg);
+    background-size: cover;
+    background-position:center;
+    flex-shrink: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+#wood #big .flex .scrol .two{
+    width: 300px;
+    height: 280px;
+    border: 1px solid grey;
+    background-image: url(/mindspace-studio-UIVK8Q2yFJ0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+#wood #big .flex .scrol .three{
+    width: 300px;
+    height: 280px;
+    border: 1px solid grey;
+    background-image: url(/kari-shea-AMyjxxLEHU4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+#wood #big .flex .scrol .four{
+    width: 300px;
+    height: 280px;
+    border: 1px solid grey;
+    background-image: url(/kara-eads-buhmhprfo3g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+#wood #big .flex .scrol .five{
+    width: 300px;
+    height: 280px;
+    border: 1px solid grey;
+    background-image: url(/hutomo-abrianto-Q_fZcn8vlWY-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+#wood #big .need{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+#wood #big .need .exp{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+
+}
+#wood #big .need .exp{
+    width: 90%;
+    height: 540px;
+    background-color: rgb(14, 53, 14);
+}
+#wood #big .need .exp .best .aro{
+    display: flex;
+    gap: 10px;
+    
+
+}
+#wood #big .need .exp .best .naro{
+    display: flex;
+    gap: 15px;
+    margin: 10px;
+}
+#wood #big .need .best .a{
+    width: 250px;
+    height: 200px;
+
+
+}
+#wood #big .need .best .b{
+    width: 250px;
+    height: 250px;
+    
+
+}
+#wood #big .need .best .c{
+    width: 200px;
+    height: 200px;
+    
+
+}
+#wood #big .need .best .d{
+    width: 260px;
+    height: 250px;
+    
+
+}
+#wood #big .need .interior{
+    color: white;
+}
+#wood #big .need .interior h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#wood #big .need .interior p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#wood #big .need .interior button{
+    width: 110px;
+    height: 35px;
+    border: none;
+    background-color: orange;
+    font-weight: bold;
+}
+
+#wood #big .cx{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+#wood #big .cx .circle{
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(/images-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+#wood #big footer{
+    width: 100%;
+    height: 320px;
+   display: flex;
+   justify-content: center;
+}
+#wood #big footer .foot{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    background-color:rgba(248, 252, 15, 0.103) ;
+}
+#wood #big footer .foot .shy{
+    color:rgb(14, 53, 14) ;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+#wood #big footer .foot .shy .news{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+#wood #big footer .foot .shy .dots{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+#wood #big footer .foot .shy .dots .links{
+    width: 25%;
+    height: 100%;
+    /* background-color: red; */
+}
+#wood #big footer .foot .shy .dots .pro{
+    width: 25%;
+    height: 100%;
+    /* background-color: red; */
+}
+#wood #big footer .foot .shy .dots .contact{
+    width: 25%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+#wood #big footer .foot .shy .subs{
+    display: flex;           
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+#wood #big .last button{
+    width: 120px;
+    height: 30px;
+    background-color: orange;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#wood #big footer .foot h3{
+    color:rgb(14, 53, 14) ;
+    margin-bottom: 20px;
+}
+#wood #big footer .foot ul{
+    list-style: none;
+    color: rgb(14, 53, 14);
+    line-height: 30px;
+}
+input{
+    outline: none;
+    height: 30px;
+}
+#wood #big .exit{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+} 
+.exit .dra{
+    width: 100%;
+    height: 15px;
+}
+
+
+@keyframes start {
+   0%{
+    position: relative;
+    bottom: 320px;
+   }
+   100%{
+    position: relative;
+    bottom: 0;
+   }
+
+}
+@keyframes end {
+    0%{
+        position: relative;
+        bottom: 0;
+    }
+    100%{
+        position: relative;
+        bottom: 320px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    #wood #big #feat #featured .ogil .ogy{
+        width: 300px;
+        height: 300px;
+    }
+    #wood #big #feat #featured .ogil .imgg{
+        width: 300px;
+        height: 300px;
+    }
+    #wood #big #feat #featured .ogil .imgg img{
+        width: 250px;
+        height: 250px;
+    }
+    #wood #big #feat #featured .ara .one{
+        position: relative;
+        left: 80px;
+    }
+}
+@media screen and (max-width:1050px){
+
+    #wood{
+        height: 3350px;
+    }
+    #wood #big{
+        height: 98%;
+    }
+    #wood #big .need .exp{
+        height:860px;
+        display: flex;
+        flex-direction: column;
+    }
+    #wood #big #feat #featured .ara .aris{
+        width: 250px;
+        height: 250px;
+    }
+    #wood #big #feat #featured .ara .aris img{
+        width: 250px;
+        height: 250px;
+    }
+    #wood #big .cx{
+        margin-top:300px;
+    }
+    #wood #big footer .foot .shy{
+        display: flex;
+        flex-direction: column;
+    }
+    #wood #big footer{
+        height: 700px;
+    }
+    #wood #big footer .foot .shy .dots{
+        width: 100%;
+    }
+    #wood #big .exit{
+        width: 100%;
+        height: 120px;
+    }
+}
+@media screen and (max-width:950px){
+    #wood{
+        height: 3240px;
+    }
+    #wood #big{
+        height: 98.7%;
+    }
+    #wood #big header .search .exclu{
+        display: none;
+    }
+    #wood #big .line1{
+        width: 37%;
+    }
+    #wood #big .line2{
+        width: 44%;
+    }
+    #wood #big header .search .bars{
+        display:inherit ;
+    }
+    #create .cimg{
+        width: 300px;
+        height: 300px;
+    }
+    #create .cimg img{
+        width: 200px;
+        height: 200px;
+    }
+    #wood #big #feat{
+        width: 100%;
+        height: 535px;
+    }
+    #wood #big #feat #featured{
+        height: 100%;
+    }
+    #wood #big #feat #featured .ogil .ogy{
+        width: 250px;
+        height: 250px;
+        font-size: 14px;
+    }
+    #wood #big #feat #featured .ogil .imgg{
+        width: 200px;
+        height: 200px;
+    }
+    #wood #big #feat #featured .ogil .imgg img{
+        width: 150px;
+        height: 150px;
+    }
+    #wood #big #feat #featured .ara .aris{
+        width: 250px;
+        height: 250px;
+       
+    }
+    
+    #wood #big #feat #featured .ara .aris img{
+        width: 250px;
+        height: 250px;
+    }
+    #wood #big #feat #featured .ogil button{
+        width: 100px;
+        height: 25px;
+        position: relative;
+        left: 100px;
+    }
+    #wood #big #feat #featured .ara .dining{
+        width: 250px;
+        height: 200px;
+        font-size: 15px;
+    }
+    #wood #big #feat #featured .ara button{
+        width: 100px;
+        height: 25px;
+        position: relative;
+        right: 100px;
+    }
+    #wood #big #feat #featured .ara .one{
+        position: relative;
+        left: 50px;
+        
+    }
+    #wood #big .flex .scrol .flex1 .first{
+        width: 200px;
+        height: 250px;
+    }
+    #wood #big .flex .scrol .two{
+        width: 200px;
+        height: 250px;
+    }
+    #wood #big .flex .scrol .three{
+        width: 200px;
+        height: 250px;
+    }
+    #wood #big .flex .scrol .four{
+        width: 200px;
+        height: 250px;
+    }
+    #wood #big .flex .scrol .five{
+        width: 200px;
+        height: 250px;
+    }
+    .flex{
+        height: 300px;
+    }
+    #wood #big footer .foot .shy .news{
+        height: 60%;
+    }
+}
+
+@media screen and (max-width:850px){
+
+    #wood{
+        height: 3700px;
+    }
+    #wood #big #feat #featured{
+        height: 1100px;
+       
+    }
+    #wood #big #feat #featured .ogil{
+        display: flex;
+        flex-direction: column;
+        height: 550px;
+        margin-bottom: 20px;
+        
+
+    }
+   
+    #wood #big #feat #featured .ogil .ogy{
+        height: 220px;
+       
+    }
+    #wood #big #feat #featured .ara{
+        display: flex;
+        flex-direction: column;
+    }
+    #wood #big .prod{
+        width: 100%;
+        height: 100px;
+        background-color: white;
+    }
+    #wood #big #feat #featured .ogil .imgg{
+        width: 300px;
+        height: 300px;
+    }
+    #wood #big #feat #featured .ogil .imgg img{
+        width: 250px;
+        height: 250px;
+
+    }
+    #wood #big #feat #featured .ogil button{
+        width: 100px;
+        height: 25px;
+        position: relative;
+        left: 186px;
+    }
+    #wood #big #feat #featured .ara .aris{
+        width: 300px;
+        height: 275px;
+        
+    }
+    #wood #big #feat #featured .ara .aris img{
+        width: 300px;
+        height: 260px;
+    }
+    #wood #big #feat #featured .ara button{
+        width: 100px;
+        height: 25px;
+        position: relative;
+        left: 180px;
+        top: -40px;
+    }
+    #wood #big #feat #featured .ara .dining{
+        font-size: 14px;
+    }
+    #wood #big .prod{
+        margin-top: 515px;
+    }
+    #wood #big .flex .scrol .flex1 .first{
+        width: 150px;
+        height: 200px;
+    }
+    #wood #big .flex .scrol .two{
+        width: 150px;
+        height: 200px;
+    }
+    #wood #big .flex .scrol .three{
+        width: 150px;
+        height: 200px;
+    }
+    #wood #big .flex .scrol .four{
+        width: 150px;
+        height: 200px;
+    }
+    #wood #big .flex .scrol .five{
+        width: 150px;
+        height: 200px;
+    }
+    .flex{
+        height: 250px;
+    }
+    
+}
+@media screen and (max-width:700px){
+    #wood{
+        height: 4260px;
+    }
+    #create{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #create .creative{
+        width: 100%;
+        height: 150px;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+
+    }
+    #wood #big .line1{
+        width: 32%;
+    }
+    #wood #big .line2{
+        width: 42%;
+    }
+    #wood #big #feat #featured{
+        width: 500px;
+        height: 1100px;
+       
+    }
+    #wood #big #feat #featured .ogil .imgg{
+        width: 300px;
+        height: 300px;
+    }
+    #wood #big #feat #featured .ogil .imgg img{
+        width: 250px;
+        height: 250px;
+    }
+    #wood #big #feat #featured .ogil button{
+        width: 100px;
+        height: 25px;
+        position: relative;
+        left: 125px;
+    }
+    #wood #big #feat #featured .ara button{
+        width: 100px;
+        height: 25px;
+        position: relative;
+        left: 125px;
+        top: -40px;
+    }
+    #wood #big #feat #featured .ara .aris{
+        width: 300px;
+        height: 300px;
+    }
+    #wood #big #feat #featured .ara .aris img{
+        width: 250px;
+        height: 300px;
+    }
+    #wood #big .flex .scrol .flex1 .first{
+        width: 150px;
+        height: 150px;
+    }
+    #wood #big .flex .scrol .two{
+        width: 150px;
+        height: 150px;
+    }
+    #wood #big .flex .scrol .three{
+        width: 150px;
+        height: 150px;
+    }
+    #wood #big .flex .scrol .four{
+        width: 150px;
+        height: 150px;
+    }
+    #wood #big .flex .scrol .five{
+        width: 150px;
+        height: 150px;
+    }
+    .flex{
+        height: 200px;
+    }
+    #wood #big .need .exp .best .aro{
+        display: flex;
+        flex-direction: column;
+    }
+    #wood #big .need .exp .best .naro{
+        display: flex;
+        flex-direction: column;
+    }
+    #wood #big .need .exp{
+        height: 1300px;
+    }
+    #wood #big .cx{
+        margin-top:750px;
+    }
+   
+
+    #wood #big footer .foot .shy .dots .links ul{
+        font-size: 16px;
+    }
+    #wood #big footer .foot .shy .dots .pro{
+        font-size: 15px;
+    }
+    #wood #big footer .foot .shy .dots .contact{
+        font-size: 16px;
+    }
+    #wood #big h1{
+        font-size: 25px;
+    }
+    #wood #big footer .foot .shy .news{
+        height: 40%;
+    }
+
+}
+@media screen and (max-width:650px){
+
+    #wood{
+        height: 4750px;
+    }
+    #wood #big{
+        height: 99.2%;
+    }
+    #wood #big footer .foot .shy .dots{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #wood #big footer .foot .shy .dots{
+        width: 100%;
+        height: 100%;
+        
+     
+    }
+
+    #wood #big footer .foot .shy .dots .links{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content:center;
+    }
+    #wood #big footer .foot .shy .dots .pro{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content:center;
+    }
+    #wood #big footer .foot .shy .dots .contact{
+        height: 72%;
+        width: 100%;
+        display: flex;
+        justify-content:center;
+    }
+    #wood #big .cx{
+        margin-bottom: 80px;
+    }
+    #wood #big footer{
+        height: 1255px;
+        
+    }
+    #wood #big footer .foot{
+        height: 100%;
+        }
+        #wood #big footer .foot .shy .news{
+            height: 17%;
+        }
+        #wood #big .cx{
+            margin-bottom: 0px;
+        }
+}
+@media screen and (max-width:600px){
+
+  
+    #wood #big #feat #featured{
+        width: 450px;
+        height: 1100px;
+       
+    }
+    #wood #big .line1{
+        width: 30%;
+    }
+    #wood #big .line2{
+        width: 42%;
+    }
+    #wood #big .prod{
+        width: 100%;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    
+}
+@media screen and (max-width:530px){
+    #wood #big #feat #featured{
+        width: 400px;
+    }
+}
+@media screen and (max-width:450px){
+    #wood #big .line1{
+        width: 25%;
+    }
+    #wood #big .line2{
+        width: 42%;
+    }
+    
+    #wood #big #feat #featured{
+            width: 355px;
+        }
+        #wood #big .need .interior h2{
+            font-size: 21px;
+        }
+        #wood #big .need .interior p{
+            font-size: 17px;
+        }
+        #wood #big .cx .circle{
+            width: 50px;
+            height: 50px;
+        }
+}
+@media screen and (max-width:410px){
+
+    #wood{
+        height: 5050px;
+    }
+    #wood #big .head select{
+        width: 40px;
+        margin-left: 20px;
+    }
+    #wood #big .head .social{
+       font-size: 13px;
+        margin-right:40px ;
+    }
+    
+    #wood #big #feat #featured{
+        width: 300px;
+    }
+    #wood #big #feat #featured .ogil button{
+       position: relative;
+       left: 95px;
+       top: 75px;
+    }
+    #wood #big #feat #featured .ara button{
+        position: relative;
+        left: 90px;
+    }
+    #wood #big #feat #featured .ogil .imgg{
+        width: 250px;
+        height: 250px;
+    }
+    #wood #big #feat #featured .ogil .imgg img{
+        width: 200px;
+        height: 200px;
+    }
+    #wood #big #feat #featured .ara .aris{
+        width: 250px;
+        height: 250px;
+    }
+    #wood #big #feat #featured .ara .aris img{
+        width: 200px;
+        height: 250px;
+    }
+}
